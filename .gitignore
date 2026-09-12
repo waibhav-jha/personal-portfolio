@@ -1,0 +1,9 @@
+# Personal & draft documents
+PRODUCT.md
+cover_letter*
+draft_cover_letter.txt
+
+# Editor & AI scratch directories
+.claude/
+scratch/
+.system_generated/

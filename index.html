@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waibhav Jha — Software Development Engineer (SDE)</title>
+  <meta name="description" content="Personal portfolio of Waibhav Jha. Software Development Engineer specializing in high-concurrency systems, distributed data pipelines, and production machine learning architectures. IEEE RAICS 2024 author. Based in Kolkata, India.">
+
+  <!-- Typography: High-Editorial Serif & Clean Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#EEE9DF">
+</head>
+<body>
+  <!-- Custom Magnetic Cursor -->
+  <div class="cursor-dot" data-cursor aria-hidden="true"></div>
+
+  <!-- Editorial Top Navigation (Matching Reference Image) -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#hero" class="brand-monogram" aria-label="Waibhav Jha Home">
+        <span>W.</span>
+      </a>
+
+      <nav class="center-nav" aria-label="Main Navigation">
+        <a href="#hero" class="nav-item active">HOME</a>
+        <a href="#research" class="nav-item">RESEARCH</a>
+        <a href="#systems" class="nav-item">SYSTEMS</a>
+        <a href="#capabilities" class="nav-item">CAPABILITIES</a>
+        <a href="#contact" class="nav-item">CONTACT</a>
+      </nav>
+
+      <div class="header-right">
+        <a href="Waibhav Jha_Doc.pdf" download class="btn-header-resume">
+          <span>RESUME PDF</span>
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ========================================================= -->
+    <!-- HERO: EDITORIAL DUAL COLUMN (MATCHING IMAGE 2 STRUCTURE)  -->
+    <!-- ========================================================= -->
+    <section id="hero" class="hero-editorial" aria-label="Introduction">
+      <div class="hero-editorial-inner">
+        <!-- Left Editorial Copy Column -->
+        <div class="hero-text-col">
+          <div class="hero-eyebrow">
+            <span>HEY, I'M WAIBHAV · SOFTWARE DEVELOPMENT ENGINEER</span>
+          </div>
+
+          <h1 class="hero-display-heading">
+            Engineering scalable software &amp; systems<br>
+            that <span class="hero-serif-italic">perform.</span>
+          </h1>
+
+          <div class="hero-divider-rule"></div>
+
+          <p class="hero-description">
+            I am a Software Development Engineer building high-throughput distributed pipelines, concurrent data architectures, and production ML systems. Focused on clean system design, low-latency execution, and deterministic runtime reliability.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="#systems" class="btn-editorial-cta" data-magnetic="0.2">
+              <span>VIEW MY WORK</span>
+              <span class="circle-arrow">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </a>
+
+            <a href="Waibhav Jha_Doc.pdf" download class="btn-editorial-secondary" data-magnetic="0.2">
+              <span>DOWNLOAD RESUME</span>
+            </a>
+          </div>
+
+          <div class="hero-quick-facts">
+            <div class="quick-fact">
+              <span class="fact-num">IEEE RAICS '24</span>
+              <span class="fact-lbl">Published Author</span>
+            </div>
+            <div class="quick-fact">
+              <span class="fact-num">TOP 100</span>
+              <span class="fact-lbl">IBM TechXchange Int'l</span>
+            </div>
+            <div class="quick-fact">
+              <span class="fact-num">7.87 / 10</span>
+              <span class="fact-lbl">B.Tech CS &amp; AI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Architectural Graphic Column (No Photo Per Request) -->
+        <div class="hero-visual-col">
+          <div class="sculptural-art-frame">
+            <!-- Architectural Geometric Slit & Light Canvas (Inspired by Image 1) -->
+            <canvas id="sculptural-canvas" class="sculptural-canvas" aria-hidden="true"></canvas>
+            
+            <div class="sculptural-overlay-card">
+              <div class="overlay-swatch-strip">
+                <span class="swatch flame"></span>
+                <span class="swatch truffle"></span>
+                <span class="swatch abyssal"></span>
+                <span class="swatch oatmeal"></span>
+              </div>
+              <span class="overlay-caption">DISTRIBUTED RUNTIMES &amp; CONCURRENT DATAFLOW</span>
+              <span class="overlay-sub">High-throughput pipeline &amp; stream architecture</span>
+            </div>
+          </div>
+
+          <!-- Vertical Location Stamp (Matching Image 2 edge label) -->
+          <div class="vertical-location-badge" aria-label="Candidate Location">
+            <span>BASED IN KOLKATA, INDIA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- SECTION 01: FEATURED RESEARCH SPLIT (MATCHING IMAGE 2)    -->
+    <!-- ========================================================= -->
+    <section id="research" class="featured-split-section" aria-labelledby="heading-research">
+      <div class="split-grid">
+        <!-- Left Card: Abyssal Blue Dark Surface (Image 1 #1B2632) -->
+        <article class="split-cell dark-cell" data-reveal="fade-up">
+          <div class="cell-top">
+            <span class="cell-num">(01)</span>
+            <span class="cell-category">FEATURED RESEARCH</span>
+          </div>
+
+          <div class="cell-content">
+            <h2 id="heading-research" class="cell-title">
+              PORTFOLIO OPTIMIZATION<br>
+              <span class="cell-italic">Monte Carlo &amp; LSTM</span>
+            </h2>
+
+            <p class="cell-abstract">
+              A quantitative computational framework integrating stochastic geometric Brownian motion paths with Long Short-Term Memory sequence networks to forecast multi-asset risk-return frontiers under non-stationary market regimes.
+            </p>
+
+            <div class="cell-meta-list">
+              <span class="meta-tag">IEEE RAICS 2024</span>
+              <span class="meta-tag">PEER-REVIEWED</span>
+              <span class="meta-tag">STOCHASTIC MODELING</span>
+            </div>
+
+            <div class="cell-actions">
+              <button type="button" class="btn-inline-arrow" id="btn-toggle-bibtex" aria-expanded="false" aria-controls="drawer-bibtex">
+                <span>VIEW BIBTEX CITATION</span>
+                <span class="arrow-glyph">→</span>
+              </button>
+            </div>
+
+            <!-- Collapsible BibTeX Drawer -->
+            <div id="drawer-bibtex" class="bibtex-box" hidden>
+              <div class="bibtex-box-header">
+                <span class="bibtex-file">citation.bib</span>
+                <button type="button" class="btn-copy-citation" id="btn-copy-bibtex">
+                  <span class="copy-lbl">COPY</span>
+                  <span class="copied-lbl" aria-hidden="true">COPIED ✓</span>
+                </button>
+              </div>
+              <pre class="bibtex-text"><code>@inproceedings{jha2024portfolio,
+  author    = {Jha, Waibhav},
+  title     = {Portfolio Optimization using Monte Carlo Simulation and LSTM},
+  booktitle = {2024 IEEE Recent Advances in Intelligent Computational Systems (RAICS)},
+  year      = {2024},
+  publisher = {IEEE},
+  address   = {India}
+}</code></pre>
+            </div>
+          </div>
+        </article>
+
+        <!-- Right Card: Oatmeal / Light Neutral Surface (Image 1 #C9C1B1 / #EEE9DF) -->
+        <article class="split-cell light-cell" data-reveal="fade-up">
+          <div class="cell-top">
+            <span class="cell-num">(02)</span>
+            <span class="cell-category">GLOBAL COMPETITION</span>
+          </div>
+
+          <div class="cell-content">
+            <h2 class="cell-title light-title">
+              TOP 100 FINALIST<br>
+              <span class="cell-italic">IBM TechXchange Int'l</span>
+            </h2>
+
+            <p class="cell-abstract light-abstract">
+              Selected in the top 100 finalists internationally in IBM's flagship global hackathon. Designed and implemented a high-throughput computational pipeline tackling enterprise data engineering bottlenecks under rapid prototyping constraints.
+            </p>
+
+            <div class="metric-block-pair">
+              <div class="metric-quad">
+                <span class="m-val">TOP 100</span>
+                <span class="m-lbl">GLOBAL RANKING</span>
+              </div>
+              <div class="metric-quad">
+                <span class="m-val">DISTRIBUTED</span>
+                <span class="m-lbl">SYSTEM ARCHITECTURE</span>
+              </div>
+            </div>
+
+            <div class="cell-actions">
+              <span class="verified-pill">VERIFIED INTERNATIONAL COMPETITION RECORD</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- SECTION 02: SELECTED SYSTEMS (EDITORIAL ARCHITECTURE)     -->
+    <!-- ========================================================= -->
+    <section id="systems" class="editorial-systems-section" aria-labelledby="heading-systems">
+      <div class="systems-container">
+        <div class="systems-intro-row">
+          <div class="intro-left">
+            <span class="section-tag-num">(03)</span>
+            <h2 id="heading-systems" class="systems-main-title">Selected Engineering Systems</h2>
+          </div>
+          <div class="intro-right">
+            <p>
+              Five production and research-grade systems spanning real-time spatial neural operators, enterprise executive BI agents, client-side desktop interoperability, and distributed cluster analytics.
+            </p>
+          </div>
+        </div>
+
+        <div class="systems-editorial-list">
+          <!-- SYSTEM 01: Spatial-Text2PDE -->
+          <article class="system-item-block" data-reveal="fade-up">
+            <div class="item-meta-bar">
+              <span class="item-idx">SYS.01</span>
+              <span class="item-domain">SPATIAL MOTION ANALYTICS &amp; 3D NEURAL OPERATORS</span>
+              <span class="item-stack">Python · PyTorch · Fourier Neural Operators (FNO) · 3D Autoencoders · Gaussian RBF</span>
+            </div>
+
+            <div class="item-grid-layout">
+              <div class="item-text-pane">
+                <h3 class="item-heading">Spatial-Text2PDE: Vision-Based Motion &amp; 3D Neural Operator Pipeline</h3>
+                <p class="item-summary">
+                  Engineered an accelerated 3D spatial motion analytics and continuous flow simulation pipeline coupling Fourier Neural Operators (FNO) with pretrained 3D mesh autoencoders. Replaces traditional numerical discretization bottlenecks with recurrent neural operator inference, resolving continuous spatial velocity and boundary layer dynamics at fraction-of-a-second latency.
+                </p>
+
+                <div class="item-technical-note">
+                  <strong>Engineering Core:</strong> Recurrent FNO architecture with Gaussian RBF interpolation, projecting continuous spatial field dynamics without discrete runtime solver stalls.
+                </div>
+
+                <div class="item-slots">
+                  <a href="https://github.com/waibhav-jha/Spatial-Text2PDE" target="_blank" rel="noopener noreferrer" class="repo-link-pill">
+                    <span>VIEW REPOSITORY: SPATIAL-TEXT2PDE</span>
+                    <span class="ext-arrow">↗</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item-dossier-pane">
+                <div class="dossier-tabs" role="tablist">
+                  <button type="button" class="tab-trigger active" role="tab" aria-selected="true" data-tab="flow">SYSTEM PIPELINE</button>
+                  <button type="button" class="tab-trigger" role="tab" aria-selected="false" data-tab="specs">OPERATOR SPECS</button>
+                </div>
+
+                <div class="dossier-view active" data-panel="flow" role="tabpanel">
+                  <ol class="step-trail">
+                    <li><strong>01 Input Ingestion:</strong> HDF5 spatial mesh telemetry and 3D velocity coordinates.</li>
+                    <li><strong>02 Gaussian RBF:</strong> Non-uniform mesh-to-grid spatial interpolation.</li>
+                    <li><strong>03 Recurrent FNO:</strong> Fourier domain spectral convolutions resolving spatial trajectories.</li>
+                    <li><strong>04 Latent Decoding:</strong> Reverse-engineered 3D autoencoder reconstructs volumetric fields.</li>
+                  </ol>
+                </div>
+
+                <div class="dossier-view" data-panel="specs" role="tabpanel">
+                  <div class="specs-mini-table">
+                    <div class="spec-entry"><span class="s-k">CONVOLUTION</span><span class="s-v">Spectral Fourier domain frequency modes (truncated high-frequency noise)</span></div>
+                    <div class="spec-entry"><span class="s-k">SPATIAL MESH</span><span class="s-v">3D Cylinder &amp; boundary surface coordinates</span></div>
+                    <div class="spec-entry"><span class="s-k">RUNTIME ADVANTAGE</span><span class="s-v">Order-of-magnitude speedup over classical discretized solvers</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- SYSTEM 02: Business-Intelligence-Agent -->
+          <article class="system-item-block" data-reveal="fade-up">
+            <div class="item-meta-bar">
+              <span class="item-idx">SYS.02</span>
+              <span class="item-domain">ENTERPRISE FULL-STACK &amp; AUTONOMOUS AGENT</span>
+              <span class="item-stack">Node.js · TypeScript · React · Monday.com SDK · Cloud Architecture</span>
+            </div>
+
+            <div class="item-grid-layout">
+              <div class="item-text-pane">
+                <h3 class="item-heading">Enterprise Executive BI &amp; Operations Agent</h3>
+                <p class="item-summary">
+                  Designed and shipped an enterprise-grade executive Business Intelligence Agent integrating flight operations with commercial deal pipelines. Built with cross-board resilience, automated entity resolution, and bi-directional live cloud synchronization across 340+ deals and 170+ work orders.
+                </p>
+
+                <div class="item-technical-note">
+                  <strong>Engineering Core:</strong> High-fidelity cloud state synchronization with resilient entity resolution, error boundaries, and deterministic offline mock snapshots.
+                </div>
+
+                <div class="item-slots">
+                  <a href="https://github.com/waibhav-jha/Business-Intelligence-Agent" target="_blank" rel="noopener noreferrer" class="repo-link-pill">
+                    <span>VIEW REPOSITORY: BI-AGENT</span>
+                    <span class="ext-arrow">↗</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item-dossier-pane">
+                <div class="dossier-tabs" role="tablist">
+                  <button type="button" class="tab-trigger active" role="tab" aria-selected="true" data-tab="flow">DATA PIPELINE</button>
+                  <button type="button" class="tab-trigger" role="tab" aria-selected="false" data-tab="specs">ARCHITECTURE SPECS</button>
+                </div>
+
+                <div class="dossier-view active" data-panel="flow" role="tabpanel">
+                  <ol class="step-trail">
+                    <li><strong>01 Webhook / Polling:</strong> Ingests flight operations and commercial deals via Monday.com SDK.</li>
+                    <li><strong>02 Entity Resolution:</strong> Fuzzy matching algorithms reconcile asynchronous board discrepancies.</li>
+                    <li><strong>03 Resilient State Engine:</strong> In-memory reactive state cache with fallback offline snapshots.</li>
+                    <li><strong>04 Executive UI:</strong> Real-time interactive dashboard visualizing fleet throughput and bottlenecks.</li>
+                  </ol>
+                </div>
+
+                <div class="dossier-view" data-panel="specs" role="tabpanel">
+                  <div class="specs-mini-table">
+                    <div class="spec-entry"><span class="s-k">TELEMETRY</span><span class="s-v">344 Deals + 176 Work Orders synchronized in real-time</span></div>
+                    <div class="spec-entry"><span class="s-k">DEPLOYMENT</span><span class="s-v">Zero-config cloud deployment with Vite / React runtime</span></div>
+                    <div class="spec-entry"><span class="s-k">FAULT TOLERANCE</span><span class="s-v">Cross-board error handling with comprehensive decision logs</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- SYSTEM 03: Wandor -->
+          <article class="system-item-block" data-reveal="fade-up">
+            <div class="item-meta-bar">
+              <span class="item-idx">SYS.03</span>
+              <span class="item-domain">MODERN WEB ARCHITECTURE &amp; INTERACTIVE PLATFORM</span>
+              <span class="item-stack">React · TypeScript · Vite · GSAP Motion · Modern CSS</span>
+            </div>
+
+            <div class="item-grid-layout">
+              <div class="item-text-pane">
+                <h3 class="item-heading">Wandor: Interactive Journey &amp; Discovery Web Platform</h3>
+                <p class="item-summary">
+                  Designed and engineered Wandor, an intelligent exploration and interactive discovery platform featuring kinetic micro-motion, progressive results card pipelines, and responsive layout choreography. Built with modular TypeScript components and zero-friction client-side state management.
+                </p>
+
+                <div class="item-technical-note">
+                  <strong>Engineering Core:</strong> Composable React component architecture with synchronized kinetic scroll transitions, dynamic contrail bridge choreography, and hardware-accelerated client rendering.
+                </div>
+
+                <div class="item-slots">
+                  <a href="https://github.com/waibhav-jha/wandor" target="_blank" rel="noopener noreferrer" class="repo-link-pill">
+                    <span>EXPLORE PROJECT: WANDOR</span>
+                    <span class="ext-arrow">↗</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item-dossier-pane">
+                <div class="dossier-tabs" role="tablist">
+                  <button type="button" class="tab-trigger active" role="tab" aria-selected="true" data-tab="flow">COMPONENT PIPELINE</button>
+                  <button type="button" class="tab-trigger" role="tab" aria-selected="false" data-tab="specs">FRONTEND SPECS</button>
+                </div>
+
+                <div class="dossier-view active" data-panel="flow" role="tabpanel">
+                  <ol class="step-trail">
+                    <li><strong>01 State Ingestion:</strong> Centralized reactive state store managing user query inputs and preference vectors.</li>
+                    <li><strong>02 Motion Orchestration:</strong> Kinetic scroll-triggered tagline reveals and contrail bridge transitions.</li>
+                    <li><strong>03 Dynamic Results Engine:</strong> Asynchronously renders interactive result cards with real-time filtering.</li>
+                    <li><strong>04 Performance Budget:</strong> Hardware-accelerated CSS transforms maintaining stable 60 FPS frame rates.</li>
+                  </ol>
+                </div>
+
+                <div class="dossier-view" data-panel="specs" role="tabpanel">
+                  <div class="specs-mini-table">
+                    <div class="spec-entry"><span class="s-k">ARCHITECTURE</span><span class="s-v">Modular React 18 + TypeScript + Vite build pipeline</span></div>
+                    <div class="spec-entry"><span class="s-k">ANIMATION ENGINE</span><span class="s-v">Kinetic GSAP choreography with contrail path transitions</span></div>
+                    <div class="spec-entry"><span class="s-k">RESPONSIVE DESIGN</span><span class="s-v">Fluid typography and adaptive container layouts</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- SYSTEM 04: Blockchain Log Analytics -->
+          <article class="system-item-block" data-reveal="fade-up">
+            <div class="item-meta-bar">
+              <span class="item-idx">SYS.04</span>
+              <span class="item-domain">DISTRIBUTED BIG DATA PIPELINES &amp; GRAPH CLUSTERING</span>
+              <span class="item-stack">Hadoop HDFS · Apache Spark · Spark MLlib · PySpark</span>
+            </div>
+
+            <div class="item-grid-layout">
+              <div class="item-text-pane">
+                <h3 class="item-heading">Blockchain Log Analytics for Detecting Fraudulent Transactions</h3>
+                <p class="item-summary">
+                  Designed a distributed big data analytics architecture across Hadoop HDFS and Apache Spark to ingest, parse, and analyze massive Ethereum transaction logs. Extracted graph interaction metrics (degree centrality, velocity, burst entropy), and trained Spark MLlib clustering algorithms across compute nodes to identify fraudulent wallet communities.
+                </p>
+
+                <div class="item-technical-note">
+                  <strong>Engineering Core:</strong> Partition-pruned distributed ETL and scalable unsupervised graph clustering over high-volume transactional logs.
+                </div>
+
+                <div class="item-slots">
+                  <a href="https://github.com/waibhav-jha" target="_blank" rel="noopener noreferrer" class="repo-link-pill">
+                    <span>VIEW GITHUB REPOSITORIES</span>
+                    <span class="ext-arrow">↗</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item-dossier-pane">
+                <div class="dossier-tabs" role="tablist">
+                  <button type="button" class="tab-trigger active" role="tab" aria-selected="true" data-tab="flow">DATA PIPELINE</button>
+                  <button type="button" class="tab-trigger" role="tab" aria-selected="false" data-tab="specs">CLUSTER SPECS</button>
+                </div>
+
+                <div class="dossier-view active" data-panel="flow" role="tabpanel">
+                  <ol class="step-trail">
+                    <li><strong>01 Ingestion:</strong> Bulk JSON-RPC blockchain transaction blocks partitioned across Hadoop HDFS nodes.</li>
+                    <li><strong>02 Distributed ETL:</strong> PySpark DataFrame transformations, schema parsing, and partition pruning.</li>
+                    <li><strong>03 Graph Features:</strong> In/out-degree velocity, circular transaction topology, and volume variance.</li>
+                    <li><strong>04 MLlib Clustering:</strong> Distributed K-Means scoring and anomaly threshold evaluation.</li>
+                  </ol>
+                </div>
+
+                <div class="dossier-view" data-panel="specs" role="tabpanel">
+                  <div class="specs-mini-table">
+                    <div class="spec-entry"><span class="s-k">STORAGE</span><span class="s-v">Hadoop HDFS (Replication factor 3)</span></div>
+                    <div class="spec-entry"><span class="s-k">ENGINE</span><span class="s-v">Apache Spark In-Memory DAG Execution</span></div>
+                    <div class="spec-entry"><span class="s-k">ML ALGORITHM</span><span class="s-v">Spark MLlib K-Means with k-means|| seeds</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- SYSTEM 05: Climate Tipping Point Prediction -->
+          <article class="system-item-block" data-reveal="fade-up">
+            <div class="item-meta-bar">
+              <span class="item-idx">SYS.05</span>
+              <span class="item-domain">HYBRID STATISTICAL FORECASTING &amp; DEEP SEQUENCE NETWORKS</span>
+              <span class="item-stack">ARIMA/GARCH · LSTM/GRU · CNN-LSTM · Python</span>
+            </div>
+
+            <div class="item-grid-layout">
+              <div class="item-text-pane">
+                <h3 class="item-heading">Climate Tipping Point Prediction Framework</h3>
+                <p class="item-summary">
+                  Constructed a reproducible research-grade forecasting system coupling classical econometric time series (ARIMA, SARIMA, GARCH) with recurrent deep learning (LSTM, GRU, CNN-LSTM). Formulated a mathematical Climate Instability Index from rolling variance and lag-1 autocorrelation to detect critical slowing down—surfacing statistical signals before dynamic state transitions.
+                </p>
+
+                <div class="item-technical-note">
+                  <strong>Engineering Core:</strong> Bridges econometric signal filtering with non-linear deep sequence residuals to model bifurcation thresholds in non-stationary series.
+                </div>
+
+                <div class="item-slots">
+                  <a href="https://github.com/waibhav-jha/Climate-Tipping-Point-Prediction-Framework" target="_blank" rel="noopener noreferrer" class="repo-link-pill">
+                    <span>VIEW REPOSITORY: CLIMATE-PREDICTION</span>
+                    <span class="ext-arrow">↗</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item-dossier-pane">
+                <div class="dossier-tabs" role="tablist">
+                  <button type="button" class="tab-trigger active" role="tab" aria-selected="true" data-tab="flow">DATA PIPELINE</button>
+                  <button type="button" class="tab-trigger" role="tab" aria-selected="false" data-tab="specs">STATISTICAL DYNAMICS</button>
+                </div>
+
+                <div class="dossier-view active" data-panel="flow" role="tabpanel">
+                  <ol class="step-trail">
+                    <li><strong>01 Decomposition:</strong> STL signal decomposition and seasonal filtering via SARIMA equations.</li>
+                    <li><strong>02 Volatility Engine:</strong> GARCH heteroskedastic variance modeling across temporal windows.</li>
+                    <li><strong>03 Instability Extraction:</strong> Computes rolling lag-1 autocorrelation (ACF) and variance escalation.</li>
+                    <li><strong>04 CNN-LSTM Forecast:</strong> 1D-CNN temporal feature extractor linked to GRU/LSTM recurrent projection.</li>
+                  </ol>
+                </div>
+
+                <div class="dossier-view" data-panel="specs" role="tabpanel">
+                  <div class="specs-mini-table">
+                    <div class="spec-entry"><span class="s-k">PHENOMENON</span><span class="s-v">Critical Slowing Down (recovery rate λ → 0)</span></div>
+                    <div class="spec-entry"><span class="s-k">INDEX</span><span class="s-v">I(t) = w₁·σ²(t) + w₂·ρ₁(t) over rolling horizons</span></div>
+                    <div class="spec-entry"><span class="s-k">HYBRID MODEL</span><span class="s-v">SARIMA linear trend + GRU/LSTM residual</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- SECTION 03: PHILOSOPHY & CAPABILITIES (IMAGE 2 BOTTOM)    -->
+    <!-- ========================================================= -->
+    <section id="capabilities" class="philosophy-section" aria-labelledby="heading-philosophy">
+      <div class="philosophy-container">
+        <div class="philosophy-manifesto-col" data-reveal="fade-up">
+          <span class="philo-eyebrow">MY PHILOSOPHY</span>
+          <h2 id="heading-philosophy" class="philo-heading">
+            Deterministic architecture is the<br>
+            <span class="philo-italic">ultimate sophistication.</span>
+          </h2>
+          <div class="philo-star">✦</div>
+          <p class="philo-text">
+            I believe in building software systems where clean abstractions, concurrency safety, and scalable performance converge—from high-throughput distributed pipelines to modern interactive web platforms (Wandor).
+          </p>
+
+          <div class="philo-academic-card">
+            <span class="acad-badge">ACADEMIC FOUNDATION</span>
+            <span class="acad-school">Amrita Vishwa Vidyapeetham</span>
+            <span class="acad-degree">B.Tech in Computer Science and Artificial Intelligence</span>
+            <span class="acad-cgpa">Cumulative GPA: <strong>7.87 / 10.0</strong></span>
+          </div>
+        </div>
+
+        <div class="philosophy-columns-group" data-reveal="fade-up">
+          <!-- Col 01 -->
+          <div class="philo-pillar-col">
+            <div class="pillar-symbol">◫</div>
+            <h3 class="pillar-title">DISTRIBUTED &amp; CONCURRENCY</h3>
+            <p class="pillar-desc">
+              Apache Spark DAG execution, Hadoop HDFS, partitioned ETL, multi-threaded pipelines, and event-driven dataflow.
+            </p>
+            <span class="pillar-num">01</span>
+          </div>
+
+          <!-- Col 02 -->
+          <div class="philo-pillar-col">
+            <div class="pillar-symbol">◯</div>
+            <h3 class="pillar-title">FULL-STACK &amp; INTERACTIVE UI</h3>
+            <p class="pillar-desc">
+              Node.js, TypeScript/React, enterprise cloud synchronization, modular UI architecture (Wandor), and RESTful microservices.
+            </p>
+            <span class="pillar-num">02</span>
+          </div>
+
+          <!-- Col 03 -->
+          <div class="philo-pillar-col">
+            <div class="pillar-symbol">⟨/⟩</div>
+            <h3 class="pillar-title">ML INFRASTRUCTURE &amp; VISION</h3>
+            <p class="pillar-desc">
+              Spatial neural operators (Spatial-Text2PDE), deep sequence forecasting, statistical signal dynamics, and PyTorch.
+            </p>
+            <span class="pillar-num">03</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- SECTION 04: DIRECT CONTACT & TRIAGE                       -->
+    <!-- ========================================================= -->
+    <section id="contact" class="editorial-contact-section" aria-labelledby="heading-contact">
+      <div class="contact-container">
+        <div class="contact-main-grid" data-reveal="fade-up">
+          <div class="contact-left-col">
+            <span class="contact-meta-tag">COMMUNICATION &amp; TRIAGE</span>
+            <h2 id="heading-contact" class="contact-headline">
+              Initiate contact.
+            </h2>
+            <p class="contact-lead">
+              Open to Software Development Engineer (SDE), Machine Learning, and Simulation roles. Looking to contribute to high-performance engines, predictive pipelines, and scalable data infrastructure.
+            </p>
+
+            <div class="contact-cta-wrapper">
+              <a href="Waibhav Jha_Doc.pdf" download class="btn-primary-download" data-magnetic="0.2">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>DOWNLOAD RESUME (WAIBHAV JHA_DOC.PDF)</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-right-col">
+            <div class="contact-directory">
+              <a href="mailto:waibhavj@gmail.com" class="directory-row" data-magnetic="0.15">
+                <span class="dir-channel">EMAIL</span>
+                <span class="dir-value">waibhavj@gmail.com</span>
+                <span class="dir-arrow">↗</span>
+              </a>
+
+              <a href="tel:+919123329934" class="directory-row" data-magnetic="0.15">
+                <span class="dir-channel">PHONE</span>
+                <span class="dir-value">+91 91233 29934</span>
+                <span class="dir-arrow">↗</span>
+              </a>
+
+              <a href="https://github.com/Waibhav-Jha" target="_blank" rel="noopener noreferrer" class="directory-row" data-magnetic="0.15">
+                <span class="dir-channel">GITHUB</span>
+                <span class="dir-value">github.com/Waibhav-Jha</span>
+                <span class="dir-arrow">↗</span>
+              </a>
+
+              <div class="directory-row placeholder">
+                <span class="dir-channel">LINKEDIN</span>
+                <span class="dir-value">[LINKEDIN URL TO BE SUPPLIED]</span>
+                <span class="dir-badge">SLOT READY</span>
+              </div>
+            </div>
+
+            <div class="location-stamp-row">
+              <span class="stamp-icon">◉</span>
+              <span>LOCATION: KOLKATA, WEST BENGAL, INDIA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Editorial Minimal Footer (Matching Image 2 footer) -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span>&copy; 2026 WAIBHAV JHA. ALL RIGHTS RESERVED.</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/Waibhav-Jha" target="_blank" rel="noopener noreferrer">GITHUB</a>
+        <a href="mailto:waibhavj@gmail.com">EMAIL</a>
+        <a href="Waibhav Jha_Doc.pdf" download>RESUME</a>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="btn-back-top" aria-label="Back to top">TOP ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts: GSAP + Lenis -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.9/dist/lenis.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
